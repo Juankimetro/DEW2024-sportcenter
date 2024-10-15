@@ -1,4 +1,4 @@
-class service {
+class Service {
   name
   ratings = []
 
@@ -17,7 +17,7 @@ class service {
       result += rate
     })
 
-    return (((result / this.ratings.length) * 100)).toFixed(2)
+    return Number((((result / this.ratings.length) * 100) / 100).toFixed(2))
   }
 
   giveRating (numero) {
@@ -25,4 +25,4 @@ class service {
   }
 }
 
-module.exports = service
+module.exports = Service

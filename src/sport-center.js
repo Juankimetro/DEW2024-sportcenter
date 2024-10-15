@@ -10,7 +10,7 @@ class SportCenter {
     this.membership = membership
     /* if (membership !== undefined) {
       this.membership = membership
-    } */a
+    } */
   }
 
   income () {
