@@ -24,6 +24,9 @@ test('Salary instructor with activities without assistance ', () => {
 })
 
 test('Salary instructor with activities with assistance ', () => {
+ /*  pepe.lead(zumba)
+  pepe.lead(spinning)
+  pepe.lead(pilates) */
   zumba.assistance = 20
   pilates.assistance = 10
   expect(pepe.salary).toBe(950)
